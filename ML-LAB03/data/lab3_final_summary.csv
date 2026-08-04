@@ -1,0 +1,4 @@
+Task,Type,Key_Metric_1,Key_Metric_2
+Age Prediction (Simple LR),Regression,R²=-0.029,MAE=15.52
+Age Prediction (Multiple LR),Regression,R²=0.237,MAE=12.67
+Gender Prediction (Logistic Reg.),Classification,Acc=0.843,F1=0.827

@@ -1,0 +1,38 @@
+﻿# Virtual environments (ห้ามขึ้น GitHub - หนักและ install ใหม่ได้จาก requirements.txt)
+venv/
+.venv/
+env/
+ENV/
+*/venv/
+*/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*/__pycache__/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Kaggle credentials - ห้าม push ขึ้น GitHub เด็ดขาด (มี API key)
+kaggle.json
+
+# Dataset ขนาดใหญ่ - ไม่ควรอยู่บน GitHub
+*/data/UTKFace_sampled/
+*/data/UTKFace_raw/
+*/data/data/
+*.zip
+
+# ยกเว้นไฟล์ CSV/PNG เล็กๆ ที่ใช้โชว์ผลงาน (portfolio)
+!data/*.csv
+!data/*.png
+
+# VS Code settings
+.vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db

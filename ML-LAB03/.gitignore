@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints (จะเกิดในทุกโฟลเดอร์ที่มี .ipynb รวมถึง notebooks/)
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Kaggle credentials - ห้าม push เด็ดขาด (มี API key ส่วนตัว)
+kaggle.json
+
+# ข้อมูลภาพต้นฉบับ/ดิบ หนักมาก ไม่ push ขึ้น GitHub
+data/UTKFace_sampled/
+data/data/
+data/UTKFace_raw/
+*.zip
+
+# เก็บไว้แค่ CSV ผลลัพธ์ + กราฟสรุป (เบา มีประโยชน์สำหรับ portfolio)
+!data/*.csv
+!data/*.png
+
+# VS Code settings (ไม่จำเป็นต้อง share)
+.vscode/

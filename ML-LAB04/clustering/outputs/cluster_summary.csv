@@ -1,0 +1,8 @@
+cluster_id,size,dominant_species,purity
+0,24,Bird,0.8333
+1,21,Mammal,1.0
+2,12,Fish,0.75
+3,18,Mammal,1.0
+4,6,Insect,1.0
+5,16,Invertebrate,0.625
+6,4,Fish,1.0
