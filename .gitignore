@@ -36,3 +36,5 @@ kaggle.json
 # OS junk files
 .DS_Store
 Thumbs.db
+# ML-05-SVM: dataset ขนาดใหญ่ - ไม่ควรอยู่บน GitHub (โหลดใหม่ได้จาก link-data.txt)
+**/PetImages/

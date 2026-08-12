@@ -1,0 +1,28 @@
+Dataset: Monkey and Person Labeled Dataset for CV
+Source (Kaggle): https://www.kaggle.com/datasets/ishworsubedii/monkey-and-person-detection
+
+Setup:
+1. Download the dataset from the link above (requires a free Kaggle account,
+   or use the Kaggle API: `kaggle datasets download -d ishworsubedii/monkey-and-person-detection`).
+2. Unzip it and sort images into two class folders under PetImages/:
+
+   ML-05-SVM/
+   └── PetImages/
+       ├── Human/
+       │   ├── 0.jpg
+       │   ├── 1.jpg
+       │   └── ...
+       └── Monkey/
+           ├── 0.jpg
+           ├── 1.jpg
+           └── ...
+
+3. Folder names become the class labels automatically (data_loader.py
+   sorts subfolder names alphabetically), so "Human" = class 0,
+   "Monkey" = class 1.
+
+Alternative (if you want to build the set yourself instead):
+- Monkey images: https://www.kaggle.com/datasets/slothkong/10-monkey-species
+  (merge all n0-n9 species folders into one "Monkey" folder)
+- Human images: any human face/person dataset, e.g. Labeled Faces in the
+  Wild (LFW) or a Kaggle "Human Faces" dataset, placed in a "Human" folder.
