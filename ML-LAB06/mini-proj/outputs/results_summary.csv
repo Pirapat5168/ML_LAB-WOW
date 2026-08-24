@@ -1,0 +1,7 @@
+experiment,config,epochs,architecture,accuracy
+epoch_comparison,epoch10,10,64-32,0.8233333333333334
+epoch_comparison,epoch30,30,64-32,0.8433333333333334
+epoch_comparison,epoch60,60,64-32,0.8066666666666666
+architecture_comparison,Small_1Layer,30,[16],0.8366666666666667
+architecture_comparison,Medium_2Layer,30,"[64, 32]",0.81
+architecture_comparison,Large_3Layer,30,"[128, 64, 32]",0.82

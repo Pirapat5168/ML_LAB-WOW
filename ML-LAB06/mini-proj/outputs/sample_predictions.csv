@@ -1,0 +1,11 @@
+actual,predicted,probability_female,correct
+Male,Male,0.004,True
+Male,Female,0.835,False
+Male,Male,0.001,True
+Male,Male,0.039,True
+Male,Male,0.24,True
+Male,Male,0.04,True
+Male,Male,0.455,True
+Male,Male,0.018,True
+Male,Male,0.136,True
+Female,Female,0.947,True
