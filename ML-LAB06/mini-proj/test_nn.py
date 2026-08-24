@@ -1,11 +1,3 @@
-"""
-test_nn.py
------------
-โหลดโมเดลที่เทรนไว้แล้ว (outputs/best_model.keras) มาทดสอบทำนาย
-กับข้อมูลจริงจาก dataset (จำลองการนำโมเดลไปใช้งานจริง)
-
-รันหลังจาก main.py เสร็จแล้วเท่านั้น (ต้องมี outputs/best_model.keras)
-"""
 
 import os
 import numpy as np

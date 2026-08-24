@@ -1,11 +1,4 @@
-"""
-nn_model.py
-------------
-สร้าง Neural Network (NN) model ด้วย TensorFlow / Keras
-พร้อม config หลายแบบ สำหรับเปรียบเทียบจำนวน hidden layers และ neurons
-ตามที่โจทย์ LAB 6 กำหนด: "Compare different Neural Network
-configurations, such as the number of hidden layers and neurons."
-"""
+
 
 from tensorflow import keras
 from tensorflow.keras import layers

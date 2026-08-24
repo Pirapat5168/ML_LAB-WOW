@@ -1,8 +1,4 @@
-"""
-split_data.py
----------------
-แบ่งข้อมูลเป็น training set และ testing set
-"""
+
 
 from sklearn.model_selection import train_test_split
 
