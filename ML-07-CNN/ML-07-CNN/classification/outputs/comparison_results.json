@@ -1,0 +1,30 @@
+[
+  {
+    "name": "cfg1_conv2_dense64_ep10",
+    "conv_layers": 2,
+    "dense_neurons": 64,
+    "epochs": 10,
+    "best_val_accuracy": 0.799555778503418
+  },
+  {
+    "name": "cfg2_conv3_dense128_ep10",
+    "conv_layers": 3,
+    "dense_neurons": 128,
+    "epochs": 10,
+    "best_val_accuracy": 0.7406995892524719
+  },
+  {
+    "name": "cfg3_conv3_dense128_ep20",
+    "conv_layers": 3,
+    "dense_neurons": 128,
+    "epochs": 20,
+    "best_val_accuracy": 0.867851197719574
+  },
+  {
+    "name": "cfg4_conv4_dense256_ep20",
+    "conv_layers": 4,
+    "dense_neurons": 256,
+    "epochs": 20,
+    "best_val_accuracy": 0.8500832915306091
+  }
+]

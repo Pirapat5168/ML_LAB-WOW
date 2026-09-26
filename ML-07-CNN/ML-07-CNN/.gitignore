@@ -1,0 +1,6 @@
+venv/
+DATASET/
+__pycache__/
+*.pyc
+classification/outputs/*.npy
+classification/outputs/*.keras
