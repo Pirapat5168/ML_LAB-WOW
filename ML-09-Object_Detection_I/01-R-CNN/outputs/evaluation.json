@@ -1,0 +1,16 @@
+{
+  "split": "test",
+  "images": 200,
+  "AP50": {
+    "real": 0.4492,
+    "fake": 0.8251
+  },
+  "mAP50": 0.6371,
+  "mean_IoU_of_matched": 0.8238,
+  "image_accuracy": 0.485,
+  "no_detection_rate": 0.0,
+  "precision_macro": 0.2425,
+  "recall_macro": 0.5,
+  "f1_macro": 0.3266,
+  "model": "R-CNN"
+}
