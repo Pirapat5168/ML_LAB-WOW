@@ -1,0 +1,14 @@
+# dataset (re-download with download_dataset.py)
+dataset/train/
+dataset/val/
+dataset/test/
+# model weights and videos (large)
+*.pt
+*.mp4
+runs/video_test/
+# python
+__pycache__/
+.venv/
+datasets/
+weights/
+*.zip
